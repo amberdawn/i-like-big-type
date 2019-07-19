@@ -2,40 +2,85 @@ const Main = require('@architect/views/main.js')
 const staticAssetsHelper = require('./static-assets-helper')
 
 // Customize your site by changing the data below
-exports.handler = async function Index () {
-  let body = Main({
-    /**
-     * Basic bio
-     */
-    fullname: 'Your Name', // ←  Start by adding your name!
-    title: 'My personal site!',
-    occupation: 'Artist & Photographer',
-    location: 'West Glacier, MT',
-    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
+<!DOCTYPE html>
+<html>
+<head>
+<title>
 
-    /**
-     * Contact / social
-     * - Comment out any item below to remove it from your page
-     */
-    email: 'your@email.com',
-    twitter: 'yourTwitter',
-    linkedin: 'your-linkedin-name',
-    instagram: 'yourInsta',
-    facebook: 'your-facebook-name',
+&hearts; ilbt &hearts;
 
-    /**
-     * Layout
-     */
-    photographer: 'Ivana Cajina',
-    service: 'Unsplash',
-    credit: 'https://unsplash.com/@von_co',
-    image: staticAssetsHelper('background.jpg')
-    // or link to an external image URL such as ↓
-    // image: 'https://images.unsplash.com/photo-1506535772317-9fdb71c959c6'
-  })
+</title>
 
-  return {
-    type: 'text/html; charset=utf8',
-    body
-  }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="https://use.typekit.net/iay6fpi.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link type="text/css" rel="stylesheet" href="/css/swirly.css">
+<link href="webfonts/ss-social-regular.css" rel="stylesheet" />
+<link href="webfonts/ss-standard.css" rel="stylesheet" />
+
+<script language="JavaScript">
+
+var links = new Array(10)
+links[0] = "index.html"
+links[1] = "waterfall.html"
+links[2] = "paint.html"
+links[3] = "suit.html"
+links[4] = "paint.html"
+links[5] = "index.html"
+links[6] = "index.html"
+links[7] = "index.html"
+links[8] = "paint.html"
+links[9] = "index.html"
+links[10] = "paint.html"
+function go() {
+var a = 1+Math.round(Math.random()*10)
+var i = a
+location = links[i]
 }
+
+</script>
+
+</html>
+
+
+</head>
+
+<body>
+<div cl
+  <div class="type">
+I like big type &amp; I cannot lie.
+</div>
+
+
+
+<div class="footer">
+
+<div class="footer-left">
+<div class="typeface">
+Typeface: <a href="https://typekit.com/fonts/corner-store-jf">Corner Store</a> by <a href="https://www.jukeboxfonts.com/">Jukebox Fonts</a>
+</div>
+<div class="background">
+Background: <a href="https://www.youworkforthem.com/graphic/E0233/fenwick-infinityland-01">Infinity Land</a> by <a href="http://rfstudio.ca/">Ray Fenwick</a>
+</div>
+</div>
+
+<div class="footer-right">
+<div class="twitter">
+<a href="http://twitter.com/ilikebigtype" class="ss-icon ss-social-regular">twitter</a>
+
+</div><a href="javascript:go()">
+<div class="button">
+<span class="ss-icon">refresh</span> New style
+</div>
+</a>
+</div>
+
+
+</div>
+
+
+
+
+</body>
